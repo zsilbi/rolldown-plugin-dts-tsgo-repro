@@ -1,0 +1,14 @@
+{
+  "name": "my-working-package",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rolldown -c ./rolldown.config.mjs"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20250607.1",
+    "rolldown": "1.0.0-beta.12-commit.ee57cb6",
+    "rolldown-plugin-dts": "^0.13.8",
+    "typescript": "^5.8.3"
+  }
+}

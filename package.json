@@ -1,0 +1,11 @@
+{
+  "name": "rolldown-plugin-dts-tsgo-monorepo-repo",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
